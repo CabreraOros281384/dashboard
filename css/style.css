@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b203d;
+    overflow: hidden;
+    font-family: system-ui;
+}
+
+.clear-fix{
+    clear: both;
+}
+.logo{
+    margin: 0px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.logo span {
+         color: #f7403b;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #272c4a;
+    overflow: hidden;
+    transition: .5s;
+    padding-top: 30px;
+}
+.sidenav a {
+      color: #818181;
+      text-decoration: none;
+      font-size: 20px;
+      display: block;
+      transition: .5s;
+      padding: 15px 8px 15px 32px;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: #1b203d;
+
+}
+.sidenav{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+.main{
+    transition: margin-left .5s;
+    margin-left: 300px;
+    
+}
